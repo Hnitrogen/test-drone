@@ -6,8 +6,9 @@ steps:
 - name: docker  
   image: plugins/docker
   settings:
+    dockerfile: docker/Dockerfile
     registry: https://dockerproxy.cn
-    repo: pavansa/bangaloretour
+    repo: hnitro/test-drone-docker-hub
     username:
       from_secret: docker_username
     password:
