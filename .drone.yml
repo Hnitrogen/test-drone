@@ -11,6 +11,7 @@ steps:
     # https_proxy: "http://localhost:7892"
     dockerfile: dockerfile
     # registry: https://docker.mirrors.ustc.edu.cn
+    registry: hnitro
     repo: "hnitro/test-drone-docker-hub"
     username:
       from_secret: docker_username
