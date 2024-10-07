@@ -7,8 +7,8 @@ steps:
   image: plugins/docker
   settings:
     environment:
-    http_proxy: "http://localhost:7890"
-    https_proxy: "http://localhost:7890"
+    # http_proxy: "http://localhost:7892"
+    # https_proxy: "http://localhost:7892"
     dockerfile: dockerfile
     # registry: https://docker.mirrors.ustc.edu.cn
     repo: hnitro/test-drone-docker-hub
