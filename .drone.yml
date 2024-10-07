@@ -1,6 +1,6 @@
 kind: pipeline
 type: docker
-name: default 
+name: hello-world
 
 steps:
 - name: docker  
@@ -9,9 +9,9 @@ steps:
     # environment:
     # http_proxy: "http://localhost:7892"
     # https_proxy: "http://localhost:7892"
-    dockerfile: dockerfile
+
     # registry: https://docker.mirrors.ustc.edu.cn
-    registry: hnitro
+    # registry: hnitro
     repo: "hnitro/test-drone-docker-hub"
     username:
       from_secret: docker_username
