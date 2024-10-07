@@ -6,7 +6,7 @@ steps:
 - name: docker  
   image: plugins/docker
   settings:
-    dockerfile: docker/Dockerfile
+    dockerfile: dockerfile
     registry: https://dockerproxy.cn
     repo: hnitro/test-drone-docker-hub
     username:
