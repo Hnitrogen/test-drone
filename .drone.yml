@@ -6,7 +6,7 @@ steps:
 - name: docker  
   image: plugins/docker
   settings:
-    # registry: docker.io
+    registry: docker.1panel.live
     repo: pavansa/bangaloretour
     username:
       from_secret: docker_username
